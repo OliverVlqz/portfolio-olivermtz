@@ -8,16 +8,18 @@ export default function About() {
   return (
     <motion.section className='mb-28 max-w-[45rem] 
     text-center leading-8
-    sm:mb-40'
+    sm:mb-40
+    scroll-mt-28 '
     initial={{opacity:0, y:100}}
     animate={{opacity:1, y:0}}
     transition={{ delay:0.175}}
+    id='about'
 
     >
        <SectionHeading >About Me</SectionHeading>
         <p className='mb-3'>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
+        After graduating at UTEZ with a degree in{" "}
+        <span className="font-medium">Cross-Platform software</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the

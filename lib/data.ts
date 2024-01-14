@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this startup project . Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
