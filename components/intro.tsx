@@ -97,7 +97,7 @@ export default function Intro() {
             '
             href='/CV.pdf' download={true}
             > Download CV 
-            <HiDownload clasName='opacity-60 
+            <HiDownload className='opacity-60 
             group-hover:translate-y-1 transition'/> </a>
 
 
