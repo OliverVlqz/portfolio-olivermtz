@@ -14,6 +14,7 @@ type ActiveSectionContextType = {
   setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>
   timeOfLastClick: number
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>
+
   
 }
 export const ActiveSectionContext = createContext<ActiveSectionContextType | null >(null)
