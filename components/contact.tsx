@@ -26,7 +26,7 @@ export default function Contact() {
             Please contact me directly at <a href='mailto:20223tn025@utez.edu.mx' className='underline'>20223tn025@utez.edu.mx</a> or through this form
         </p>
         <form className='mt-10 flex flex-col dark:text-black' action={async formData =>{
-            const{data, error}= await sendEmail(formData)
+            const{error}:any= await sendEmail(formData)
             if(error){
                toast.error(error)
                return
