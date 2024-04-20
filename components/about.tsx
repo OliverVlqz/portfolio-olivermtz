@@ -30,11 +30,11 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, SpringBoot, and MongoDB
+          React, Next.js, SpringBoot, TypeScript and MongoDB
         </span>
-        . I am also familiar with TypeScript. I am always looking to
+        . I am also familiar with React Native. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        <span className="font-medium">part-time position</span> as a software
         developer.
         </p>
         <p>
@@ -43,7 +43,7 @@ export default function About() {
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">soft skills and psychology</span>. I'm also
-        learning how to play the guitar.
+        learning how to center a div.
         </p>
     </motion.section>
   )
