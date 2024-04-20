@@ -21,10 +21,10 @@ export default function About() {
     >
        <SectionHeading >About Me</SectionHeading>
         <p className='mb-3'>
-        After graduating at UTEZ with a degree in{" "}
+        I am currently studying for a degree in{" "}
         <span className="font-medium">Cross-Platform software</span>, I decided to pursue my
-        passion for programming. I started the university and i actually learning{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        passion for programming. I started the university and i´m actually learning{" "}
+        <span className="font-medium">full-stack web/mobile development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack

@@ -58,7 +58,7 @@ export default function Intro() {
         <span className="font-bold">full-stack developer.</span> student at{" "}
         <span className="font-bold">UTEZ.</span> I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.          
+        <span className="underline">Java/JavaScript</span>.          
         </motion.h1>
         <motion.div className='flex flex-col 
         sm:flex-row
