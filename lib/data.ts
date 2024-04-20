@@ -1,10 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import {BsBank, BsPersonArmsUp} from 'react-icons/bs'
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Siahva from "@/public/Siahva.png";
+import MapLocation from "@/public/MapLocation.png";
+import SiahvaApp from "@/public/SiahvaApp.png";
 
 export const links = [
   {
@@ -35,52 +34,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "My First Steps in Programming",
+    location: "Morelos, MX",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I began programming in C++ and Java during high school. After numerous projects, I graduated with an degree in computing, specializing in the Physical-Mathematical field.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "University Enrollment",
+    location: "Morelos, MX",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I started on my professional career as a Software Developer, gaining experience in languages such as Java and JavaScript.",
+    icon: React.createElement(BsBank),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Professional Internship",
+    location: "Morelos, MX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Following numerous projects and experiences in web/mobile development, I am currently available for part-time opportunities where I can apply what I've learned.",
+    icon: React.createElement(BsPersonArmsUp),
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Siahva",
     description:
-      "I worked as a full-stack developer on this startup project . Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This project allows users   make reservations and purchases available at the hotel, while administrators can manage all content.",
+    tags: ["React", "JavaScript", "Tailwind", "Java", "SpringBoot"],
+    imageUrl: Siahva,
   },
   {
-    title: "rmtDev",
+    title: "MapLocation",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This website manages locations in a database and displays them on a map. It integrates various APIs for its functionality.",
+    tags: ["HTML", "Css", "JavaScript", "Java", "SpringBoot"],
+    imageUrl: MapLocation,
   },
   {
-    title: "Word Analytics",
+    title: "Siahva App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A mobile application that enables users to reserve hotel rooms and purchase products. The app utilizes Firebase as a database to manage these products.",
+    tags: ["React Native", "Expo", "FireBase", "Java", "SpringBoot"],
+    imageUrl: SiahvaApp,
   },
 ] as const;
 
@@ -90,11 +89,14 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Java",
   "MongoDB",
   "MySQL",
-  "Framer Motion",
+  "SpringBoot",
+  "Tailwind",
+  "Git",
+  
 ] as const;
