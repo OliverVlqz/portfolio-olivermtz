@@ -1,9 +1,10 @@
 import React from "react";
-import {BsBank, BsPersonArmsUp} from 'react-icons/bs'
+import { BsBank, BsPersonArmsUp } from "react-icons/bs";
 import { LuGraduationCap } from "react-icons/lu";
 import Siahva from "@/public/Siahva.png";
 import MapLocation from "@/public/MapLocation.png";
 import SiahvaApp from "@/public/SiahvaApp.png";
+import Entrypay from "@/public/EntryPayLandingPage.png";
 
 export const links = [
   {
@@ -81,6 +82,13 @@ export const projectsData = [
     tags: ["React Native", "Expo", "FireBase", "Java", "SpringBoot"],
     imageUrl: SiahvaApp,
   },
+  {
+    title: "EntryPay",
+    description:
+      "A landing page designed to inform users about the Entrypay product, provide a quotation feature, and facilitate contact for detailed information about its services.",
+    tags: ["Nextjs", "Sequelize", "MUI", "PostgreSQL", "Contentful"],
+    imageUrl: Entrypay,
+  },
 ] as const;
 
 export const skillsData = [
@@ -98,5 +106,4 @@ export const skillsData = [
   "SpringBoot",
   "Tailwind",
   "Git",
-  
 ] as const;
