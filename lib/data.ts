@@ -7,6 +7,7 @@ import SiahvaApp from '@/public/SiahvaApp.png'
 import Entrypay from '@/public/EntryPayLandingPage.png'
 import WareHouse from '@/public/WarehouseManager.png'
 import ChatMedia from '@/public/ChatMedia.png'
+import AdoptionCenter from '@/public/AdoptionCenter.png'
 
 export const links = [
   {
@@ -50,15 +51,15 @@ export const experiencesData = [
     description:
       'I began my academic journey in Software Development Engineering, gaining experience in Java, JavaScript, and problem-solving through multiple academic and personal projects.',
     icon: React.createElement(BsBank),
-    date: '2022 - 2023',
+    date: '2022 - 2024',
   },
   {
     title: 'Professional Internship at EntryPay',
     location: 'Morelos, MX',
     description:
-      'After working on several web and mobile development projects, I completed my professional internship at EntryPay, a technology company specialized in access control and payment solutions, where I continue to work to this day.',
+      'After working on several web and mobile development projects, I completed my professional internship at EntryPay, a technology company specialized in access control and payment solutions.',
     icon: React.createElement(LuLaptop),
-    date: '2023 - 2024',
+    date: '2024 - 2025',
   },
   {
     title: 'Engineering in Software Development',
@@ -66,7 +67,7 @@ export const experiencesData = [
     description:
       'I am currently completing my Software Development and Management Engineering degree, eager to contribute what I’ve learned to impactful software projects.',
     icon: React.createElement(BsPersonArmsUp),
-    date: '2024 - Present',
+    date: '2025 - Present',
   },
 ] as const
 
@@ -78,12 +79,20 @@ export const projectsData = [
     tags: ['Nextjs', 'Sequelize', 'MUI', 'PostgreSQL', 'Contentful'],
     imageUrl: Entrypay,
   },
+
   {
     title: 'Warehouse Manager',
     description:
       'A web application designed to manage a warehouse, allowing users to add, edit, and delete entrys and outs of products. Also, it provides a graphic information of products.',
     tags: ['React', 'Bootstrap', 'SpringBoot', 'MySQL'],
     imageUrl: WareHouse,
+  },
+  {
+    title: 'Adoption Center',
+    description:
+      'Web platform designed to streamline animal adoption processes, showcase available pets, and support the management of adoption centers.',
+    tags: ['React', 'Tailwind', 'Docker', 'SpringBoot Security'],
+    imageUrl: AdoptionCenter,
   },
   {
     title: 'ChatMedia',
@@ -107,13 +116,7 @@ export const projectsData = [
     tags: ['React Native', 'Expo', 'FireBase', 'Java', 'SpringBoot'],
     imageUrl: SiahvaApp,
   },
-  {
-    title: 'MapLocation',
-    description:
-      'This website manages locations in a database and displays them on a map. It integrates various APIs for its functionality.',
-    tags: ['HTML', 'Css', 'JavaScript', 'Java', 'SpringBoot'],
-    imageUrl: MapLocation,
-  },
+ 
 ] as const
 
 export const skillsData = [
@@ -122,6 +125,7 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'Python',
+  'Data Engineering',
   'React',
   'React Native',
   'Next.js',
@@ -133,4 +137,5 @@ export const skillsData = [
   'SpringBoot',
   'Tailwind',
   'Git',
+  'Docker',
 ] as const
